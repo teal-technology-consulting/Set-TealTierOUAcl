@@ -8,7 +8,7 @@ The PowerShell script **Set-TealTierOUAcl.ps1** sets a pre-defined ACL to an org
 
 **RemoveNonInheritedAccessRules**: Specifies whether non-inherited access rules are removed from all AD objects underneath the specified organizational unit. The default is 'true'.
 
-# 2. Example
+## 1.2. Example
 
    Applies the pre-defined ACL to the OU 'OU=Tier0,DC=contoso,DC=local' and removes all non-inherited access rules from all AD objects underneath the specified organizational unit.
    
